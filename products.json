@@ -1,0 +1,432 @@
+{
+    "products": [
+        {
+            "id": "1",
+            "title": "Angel Soft Toilet Paper, 9 Mega Rolls",
+            "valueA": 14.12,
+            "valueB": 17.12,
+            "image": "/assets/products/produto1.svg",
+            "category": "Baby"
+        },
+        {
+            "id": "2",
+            "title": "Simply Orange Pulp Free Juice – 52 fl oz",
+            "valueA": 2.45,
+            "valueB": 4.13,
+            "image": "/assets/products/produto2.svg",
+            "category": "Beverages"
+        },
+        {
+            "id": "3",
+            "title": "Cantaloupe Melon Fresh Organic Cut",
+            "valueA": 1.25,
+            "valueB": 2.98,
+            "image": "/assets/products/produto3.svg",
+            "category": "Fruits"
+        },
+        {
+            "id": "4",
+            "title": "Great Value Rising Crust Frozen Pizza, Supreme",
+            "valueA": 8.99,
+            "valueB": 9.99,
+            "image": "/assets/products/produto4.svg",
+            "category": "Frozen Foods"
+        },
+        {
+            "id": "5",
+            "title": "100 Percent Apple Juice – 64 fl oz Bottle",
+            "valueA": 1.52,
+            "valueB": 2.99,
+            "image": "/assets/products/produto5.svg",
+            "category": "Beverages"
+        },
+        {
+            "id": "6",
+            "title": "California Pizza Kitchen Margherita, Crispy Thin Crust",
+            "valueA": 11.77,
+            "valueB": 14.77,
+            "image": "/assets/products/produto6.svg",
+            "category": "Frozen Foods"
+        },
+        {
+            "id": "7",
+            "title": "Simple Kitchen FD Sliced Strawberries – 1.08lb",
+            "valueA": 21.90,
+            "valueB": 24.90,
+            "image": "/assets/products/produto7.svg",
+            "category": "Fruits"
+        },
+        {
+            "id": "8",
+            "title": "Red Baron Frozen Hand Tossed Ultimate Pepperoni Pizza –",
+            "valueA": 14.99,
+            "valueB": 19.99,
+            "image": "/assets/products/produto8.svg",
+            "category": "Frozen Foods"
+        },
+        {
+            "id": "9",
+            "title": "Oscar Mayer Ham & Swiss Melt Scrambler – 3oz",
+            "valueA": 11.90,
+            "valueB": 12.90,
+            "image": "/assets/products/produto9.svg",
+            "category": "Breakfast"
+        },
+        {
+            "id": "10",
+            "title": "Large Garden Spinach & Herb Wrap Tortillas – 15oz_6ct",
+            "valueA": 27.90,
+            "valueB": 32.90,
+            "image": "/assets/products/produto10.svg",
+            "category": "Breads"
+        },
+        {
+            "id": "11",
+            "title": "Great Value Rising Crust Pizza, Cheese, 27.4 oz",
+            "valueA": 12.89,
+            "valueB": 14.89,
+            "image": "/assets/products/produto11.svg",
+            "category": "Frozen Foods"
+        },
+        {
+            "id": "12",
+            "title": "Vitaminwater zero sugar squeezed electrolyte",
+            "valueA": 4.99,
+            "valueB": 8.99,
+            "image": "/assets/products/produto12.svg",
+            "category": "Beverages"
+        },
+        {
+            "id": "13",
+            "title": "Absolut Grapefruit Paloma Sparkling Vodka Cocktail – 4pk_355ml",
+            "valueA": 6.99,
+            "valueB": 8.99,
+            "image": "/assets/products/produto13.svg",
+            "category": "Beverages"
+        },
+        {
+            "id": "14",
+            "title": "Real Plant-Powered Protein Shake – Double Chocolate",
+            "valueA": 14.89,
+            "valueB": 17.89,
+            "image": "/assets/products/produto14.svg",
+            "category": "Beverages"
+        },
+        {
+            "id": "15",
+            "title": "Philadelphia Original Cream Cheese Spread – 12oz",
+            "valueA": 5.00,
+            "valueB": 6.13,
+            "image": "/assets/products/produto15.svg",
+            "category": "Breakfast"
+        },
+        {
+            "id": "16",
+            "title": "Pearl Milling Company Original Syrup – 24 fl oz",
+            "valueA": 2.38,
+            "valueB": 3.38,
+            "image": "/assets/products/produto16.svg",
+            "category": "Breakfast"
+        },
+        {
+            "id": "17",
+            "title": "Thomas’ Everything Bagels – 20oz_6ct",
+            "valueA": 2.50,
+            "valueB": 4.50,
+            "image": "/assets/products/produto17.svg",
+            "category": "Breads"
+        },
+        {
+            "id": "18",
+            "title": "Take And Bake Baguettes – 14oz_2ct",
+            "valueA": 1.75,
+            "valueB": 2.75,
+            "image": "/assets/products/produto18.svg",
+            "category": "Breads"
+        },
+        {
+            "id": "19",
+            "title": "Vital Farms Pasture-Raised Grade A Large Eggs – 12ct",
+            "valueA": 2.50,
+            "valueB": 4.50,
+            "image": "/assets/products/produto19.svg",
+            "category": "Breakfast"
+        },
+        {
+            "id": "20",
+            "title": "Tillamook Medium Cheddar Cheese Loaf – 32oz",
+            "valueA": 2.50,
+            "valueB": 4.50,
+            "image": "/assets/products/produto20.svg",
+            "category": "Breakfast"
+        },
+        {
+            "id": "21",
+            "title": "Silk Dairy Free, Gluten Free, Vanilla Almond Milk, 64 fl",
+            "valueA": 2.50,
+            "valueB": 4.50,
+            "image": "/assets/products/produto21.svg",
+            "category": "Beverages"
+        },
+        {
+            "id": "22",
+            "title": "A&W Caffeine-Free, Low Sodium Root Beer Soda Pop, 2 Liter Bottles",
+            "valueA": 2.50,
+            "valueB": 4.50,
+            "image": "/assets/products/produto22.svg",
+            "category": "Beverages"
+        },
+        {
+            "id": "23",
+            "title": "USDA Choice Angus Beef T-Bone Steak – 0.70-1.50 lbs",
+            "valueA": 2.50,
+            "valueB": 4.50,
+            "image": "/assets/products/produto23.svg",
+            "category": "Meats"
+        },
+        {
+            "id": "24",
+            "title": "Yellow Potatoes Whole Fresh, 5lb Bag",
+            "valueA": 0.50,
+            "valueB": 1.99,
+            "image": "/assets/products/produto24.svg",
+            "category": "Fruits"
+        },
+        {
+            "id": "25",
+            "title": "Large Bagged Oranges",
+            "valueA": 0.89,
+            "valueB": 1.78,
+            "image": "/assets/products/produto25.svg",
+            "category": "Fruits"
+        },
+        {
+            "id": "26",
+            "title": "Strawberries – 1lb",
+            "valueA": 1.50,
+            "valueB": 2.15,
+            "image": "/assets/products/produto26.svg",
+            "category": "Fruits"
+        },
+        {
+            "id": "27",
+            "title": "Peach – each",
+            "valueA": 0.75,
+            "valueB": 1.75,
+            "image": "/assets/products/produto27.svg",
+            "category": "Fruits"
+        },
+        {
+            "id": "28",
+            "title": "Marketside Fresh Organic Bananas, Bunch",
+            "valueA": 0.89,
+            "valueB": 1.99,
+            "image": "/assets/products/produto28.svg",
+            "category": "Fruits"
+        },
+        {
+            "id": "29",
+            "title": "Halloween Harvest Caramel Apple Soft Caramels",
+            "valueA": 19.37,
+            "valueB": 21.37,
+            "image": "/assets/products/produto29.svg",
+            "category": "Fruits"
+        },
+        {
+            "id": "30",
+            "title": "Fresh Purple Eggplant",
+            "valueA": 2.99,
+            "valueB": 3.99,
+            "image": "/assets/products/produto30.svg",
+            "category": "Fruits"
+        },
+        {
+            "id": "31",
+            "title": "Fresh Pomegranate, Each",
+            "valueA": 1.50,
+            "valueB": 2.99,
+            "image": "/assets/products/produto31.svg",
+            "category": "Fruits"
+        },
+        {
+            "id": "32",
+            "title": "Fresh Lemon, Each",
+            "valueA": 0.50,
+            "valueB": 1.99,
+            "image": "/assets/products/produto32.svg",
+            "category": "Fruits"
+        },
+        {
+            "id": "33",
+            "title": "Fresh Cauliflower, Each",
+            "valueA": 12.79,
+            "valueB": 14.79,
+            "image": "/assets/products/produto33.svg",
+            "category": "Fruits"
+        },
+        {
+            "id": "34",
+            "title": "Fresh Broccoli Crowns, Each",
+            "valueA": 11.54,
+            "valueB": 17.88,
+            "image": "/assets/products/produto34.svg",
+            "category": "Fruits"
+        },
+        {
+            "id": "35",
+            "title": "Blackberries – 6oz",
+            "valueA": 2.99,
+            "valueB": 4.99,
+            "image": "/assets/products/produto35.svg",
+            "category": "Fruits"
+        },
+        {
+            "id": "36",
+            "title": "30g Protein Shake – Salted Caramel – 11 fl oz-4pk",
+            "valueA": 11.99,
+            "valueB": 12.99,
+            "image": "/assets/products/produto36.svg",
+            "category": "Fruits"
+        },
+        {
+            "id": "37",
+            "title": "Fresh Granny Smith Apple, Each",
+            "valueA": 2.50,
+            "valueB": 4.50,
+            "image": "/assets/products/produto37.svg",
+            "category": "Fruits"
+        },
+        {
+            "id": "38",
+            "title": "Lay’s Classic Potato Snack Chips, Party Size, 13 oz Bag",
+            "valueA": 1.00,
+            "valueB": 1.99,
+            "image": "/assets/products/produto38.svg",
+            "category": "Biscuits"
+        },
+        {
+            "id": "39",
+            "title": "Tostitos Pumpkins – 11oz",
+            "valueA": 0.75,
+            "valueB": 1.75,
+            "image": "/assets/products/produto39.svg",
+            "category": "Beverages"
+        },
+        {
+            "id": "40",
+            "title": "SToK Black Unsweetened Cold Brew Coffee – 48 fl oz",
+            "valueA": 9.19,
+            "valueB": 11.19,
+            "image": "/assets/products/produto40.svg",
+            "category": "Beverages"
+        },
+        {
+            "id": "41",
+            "title": "Starbucks Keurig K-Cup Holiday Blend – 22ct_8.9oz",
+            "valueA": 5.79,
+            "valueB": 8.79,
+            "image": "/assets/products/produto41.svg",
+            "category": "Beverages"
+        },
+        {
+            "id": "42",
+            "title": "Starbucks by Nespresso Vertuo Line Pods Medium",
+            "valueA": 3.99,
+            "valueB": 4.99,
+            "image": "/assets/products/produto42.svg",
+            "category": "Beverages"
+        },
+        {
+            "id": "43",
+            "title": "Smartwater Bottles – 6pk_16.9 fl oz",
+            "valueA": 3.99,
+            "valueB": 4.99,
+            "image": "/assets/products/produto43.svg",
+            "category": "Beverages"
+        },
+        {
+            "id": "44",
+            "title": "Schweppes Diet Ginger Ale 12 oz Cans – Pack of 24",
+            "valueA": 1.99,
+            "valueB": 2.99,
+            "image": "/assets/products/produto44.svg",
+            "category": "Beverages"
+        },
+        {
+            "id": "45",
+            "title": "S.Pellegrino Sparkling Natural Mineral Water, 16.9",
+            "valueA": 1.99,
+            "valueB": 2.99,
+            "image": "/assets/products/produto45.svg",
+            "category": "Beverages"
+        },
+        {
+            "id": "46",
+            "title": "Red Bay Coffee Coltrane Medium Roast Coffee – 12oz",
+            "valueA": 11.99,
+            "valueB": 14.99,
+            "image": "/assets/products/produto46.svg",
+            "category": "Beverages"
+        },
+        {
+            "id": "47",
+            "title": "Starbucks Black Unsweetened Cold Brew…",
+            "valueA": 5.22,
+            "valueB": 6.22,
+            "image": "/assets/products/produto47.svg",
+            "category": "Beverages"
+        },
+        {
+            "id": "48",
+            "title": "Pop & Bottle Caramel Cold Brew Oat Milk Latte with",
+            "valueA": 1.98,
+            "valueB": 2.98,
+            "image": "/assets/products/produto48.svg",
+            "category": "Beverages"
+        },
+        {
+            "id": "49",
+            "title": "Pepsi Cola Soda Pop, 2 Liter Bottle",
+            "valueA": 1.99,
+            "valueB": 1.99,
+            "image": "/assets/products/produto49.svg",
+            "category": "Beverages"
+        },
+        {
+            "id": "50",
+            "title": "Naturally Flavored Pumpkin Spice Light Roast Coffee",
+            "valueA": 8.99,
+            "valueB": 10.99,
+            "image": "/assets/products/produto50.svg",
+            "category": "Beverages"
+        },
+        {
+            "id": "51",
+            "title": "Naked Green Machine Boosted Juice Smoothie",
+            "valueA": 4.12,
+            "valueB": 8.12,
+            "image": "/assets/products/produto51.svg",
+            "category": "Beverages"
+        },
+        {
+            "id": "52",
+            "title": "Light Blood Orange Ginger – 4pk_200ml Bottles",
+            "valueA": 16.89,
+            "valueB": 17.89,
+            "image": "/assets/products/produto52.svg",
+            "category": "Beverages"
+        },
+        {
+            "id": "53",
+            "title": "Similac® Advance®_ Powder Baby Formula with Iron",
+            "valueA": 25.83,
+            "valueB": 33.84,
+            "image": "/assets/products/produto53.svg",
+            "category": "Baby"
+        }
+    ],
+    "cart": 
+    [
+        
+    ]
+}

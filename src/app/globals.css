@@ -1,0 +1,50 @@
+@import "tailwindcss";
+
+body {
+    font-family: "Inter", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.swiper-pagination-bullet {
+    opacity: 1;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.swiper-pagination-bullet:hover {
+    transform: scale(1.4);
+}
+
+.swiper-pagination-bullet-active {
+    transform: scale(1.1);
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+    border-radius: 50%;
+    transition: all 0.3s ease-in-out;
+    opacity: 0;
+}
+
+.swiper:hover .swiper-button-next,
+.swiper:hover .swiper-button-prev {
+    opacity: 1;
+}
+
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+    transform: scale(1.1);
+}
+
+.swiper-button-prev {
+    left: 15px;
+}
+
+.swiper-button-next {
+    right: 15px;
+}
+
+.swiper-slide [data-swiper-parallax] {
+    transition: transform 1s ease-out !important;
+    display: flex;
+}
