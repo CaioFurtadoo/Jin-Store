@@ -20,7 +20,7 @@ export const Footer = () => {
             <div className=" h-[190px] flex justify-between items-center">
                 <div className="flex flex-col gap-1.5 w-[305px]">
                     <h1 className="font-bold text-[20px] text-[#111827]">Join our newsletter for £10 offs</h1>
-                    <p className="text-[13px] text-[#6B7280]">Register now to get latest updates on promotions &coupons.Don't worry, we not spam!</p>
+                    <p className="text-[13px] text-[#6B7280]">Register now to get latest updates on promotions &coupons.Dont worry, we not spam!</p>
                 </div>
                 <div className="flex flex-col gap-[11px]">
                     <InputFooter/>

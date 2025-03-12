@@ -5,7 +5,6 @@ import blog1 from "../../../../public/assets/Blog/Blog1.svg"
 import blog2 from "../../../../public/assets/Blog/Blog2.svg"
 import blog3 from "../../../../public/assets/Blog/Blog3.svg"
 import blog4 from "../../../../public/assets/Blog/Blog4.svg"
-import Link from "next/link"
 import { useLayoutEffect, useRef } from "react"
 import { gsap } from "gsap"
 import { ScrollTrigger } from "gsap/ScrollTrigger";
@@ -19,7 +18,7 @@ export const BlogHome = () => {
     useLayoutEffect(() => {
     gsap.registerPlugin(ScrollTrigger);
 
-    const ctx = gsap.context(() => {
+    gsap.context(() => {
     tl.current = gsap.timeline({
         scrollTrigger: {
             trigger: el.current,

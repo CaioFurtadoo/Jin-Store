@@ -1,7 +1,6 @@
 import cartpresent from "../../../../public/assets/icons/CartPresent.svg";
 import Image from "next/image";
 import Link from "next/link"
-import sideArrowGray from "../../../../public/assets/icons/SideArrowGray.svg"
 import { PagesText } from "@/components/Pages";
 
 export const Cart = () => {

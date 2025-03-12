@@ -2,14 +2,10 @@ import { PagesText } from "@/components/Pages";
 import user from "../../../../public/assets/icons/User.svg"
 import compare from "../../../../public/assets/icons/Compare.svg"
 import Image from "next/image";
-import { use } from "react";
 import { GeneralInput } from "@/components/Pages/GeneralInput";
 import { GeneralCheckbox } from "@/components/Pages/GeneralCheckbox";
 
 export const account = () => {
-
-    const handleCheckboxChange = (category: string, checked: boolean) => {
-    }
 
     return(
         <div>

@@ -1,7 +1,7 @@
 "use client"
 
 import expand from "../../../../public/assets/icons/Expand.svg"
-import Image, {StaticImageData} from "next/image";
+import Image from "next/image";
 import { Modal } from "./Modal";
 import { useState } from 'react'
 

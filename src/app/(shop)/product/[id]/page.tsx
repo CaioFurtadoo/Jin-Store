@@ -1,6 +1,5 @@
 import { PagesText } from "@/components/Pages";
 import Image from "next/image";
-import expand from "../../../../../public/assets/icons/Expand.svg"
 import rating from "../../../../../public/assets/icons/ratingPr.svg"
 import payCard from "../../../../../public/assets/icons/PayCard.svg"
 import security from "../../../../../public/assets/icons/Security.svg"
@@ -44,13 +43,12 @@ export const ProductPage = async ({params,}: {
 
     const pfilter = products.products.filter((product: entity) => product.category === produto.category)
 
-    const randomizeArr = (arr: any) => {
-        for (let i = 0; i < arr.length; i++) 
-        {
+    const randomizeArr = <T,>(arr: T[]): void => {
+        for (let i = 0; i < arr.length; i++) {
             const j = Math.floor(Math.random() * (i + 1));
             [arr[i], arr[j]] = [arr[j], arr[i]];
         }
-    }
+    };
 
     randomizeArr(pfilter)
 
@@ -116,7 +114,7 @@ export const ProductPage = async ({params,}: {
                     <div className="flex flex-col gap-5">
                         <h1 className="font-bold text-[#030712] text-[18px]">Related products</h1>
                         <ul className=" mb-[60px] flex border-y border-l shadow-lg shadow-[#e8e9eb] border-[#E5E7EB] rounded-lg ">
-                                {pfilter.slice(0, 6).map((item: any) => (
+                                {pfilter.slice(0, 6).map((item: entity) => (
                                 <Product key={item.id} id={item.id} runOut={false} bigRunOut={false} inStock={true} timer={false} background="bg-white" border="border-r border-[#E5E7EB] rounded-lg"/>
                             ))}
                         </ul>

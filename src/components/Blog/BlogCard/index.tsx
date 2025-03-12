@@ -1,6 +1,5 @@
 import Image, {StaticImageData} from "next/image";
 import Link from "next/link";
-import { useRef } from "react";
 
 interface BlogCardProps{
     title: string;

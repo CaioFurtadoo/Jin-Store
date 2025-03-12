@@ -3,7 +3,6 @@
 import Link from "next/link";
 import Image from "next/image";
 import sideArrowTitle from "../../../../public/assets/icons/SideArrowTitleW.svg"
-import sideArrowTitleW from "../../../../public/assets/icons/SideArrowTitle.svg"
 import { useLayoutEffect } from "react";
 import { gsap } from "gsap"
 import { ScrollTrigger } from "gsap/ScrollTrigger";

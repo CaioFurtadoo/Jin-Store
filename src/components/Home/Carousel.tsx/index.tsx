@@ -47,7 +47,7 @@ export const Carousel = () => {
                 Weekend Discount
               </div>
               <h1 data-swiper-parallax="-150" className="text-[#39245F] w-[610px] text-[58px] font-bold leading-tight">Shopping with us for better quality and the best price</h1>
-              <p data-swiper-parallax="-100" className="text-[16px] text-[#030712] w-[500px]">We have prepared special discounts for you on grocery products. Don't miss these opportunities...</p>
+              <p data-swiper-parallax="-100" className="text-[16px] text-[#030712] w-[500px]">We have prepared special discounts for you on grocery products. Dont miss these opportunities...</p>
             </div>
             <button data-swiper-parallax="-200" className="flex gap-4 mt-[42px]">
               <div className="bg-[#634C9F] text-white py-3 pl-[18px] pr-[49px] font-bold text-[14px] rounded-lg overflow-hidden flex relative z-30 justify-center items-center before:scale-150 before:w-[100%] before:bottom-[-100px] hover:before:bottom-0 cursor-pointer before:h-[100%] before:bg-[#39245F] before:z-[-1] before:origin-bottom before:transition-all before:duration-500 before:ease-out hover:scale-105 transition ease-in before:absolute">
@@ -55,7 +55,7 @@ export const Carousel = () => {
               </div>
               <div className="flex flex-col items-start leading-tight">
                 <p className={`font-bold text-[28px] ${barlow.className} text-[#DC2626]`}>{slide.discount} <strong className="line-through text-[#111827] font-medium text-[20px]">{slide.value}</strong></p>
-                <p className="text-[11px] text-[#030712] opacity-50">Don't miss this limited time offer.</p>
+                <p className="text-[11px] text-[#030712] opacity-50">Dont miss this limited time offer.</p>
               </div>
             </button>
           </div>

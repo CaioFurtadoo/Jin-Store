@@ -1,8 +1,7 @@
-import Image, {StaticImageData} from "next/image";
+import Image from "next/image";
 import shoppingCart from "../../../../../public/assets/icons/ShoppingCart.svg"
 import close from "../../../../../public/assets/icons/close.png"
 import Link from "next/link";
-import { useState } from 'react'
 import { barlow } from "../../../../app/fonts";
 
 
@@ -12,7 +11,7 @@ interface propsModal{
     src: string
     alt: string
     isOpen: boolean
-    setOpenModal: any
+    setOpenModal: (open: boolean) => void
     valueA: number
     valueB: number
 }
@@ -20,15 +19,13 @@ interface propsModal{
 
 export const Modal: React.FC<propsModal> = ({title, src, alt, isOpen, setOpenModal, valueA, valueB}) => {
 
-    const [open, setOpen] = useState(isOpen)
-
     if(isOpen === true){
             return(
                 <div className="fixed top-0 left-0 right-0 bottom-0 bg-black/80 z-30 flex justify-center items-center">
                     <div className=" bg-white rounded-lg fixed flex flex-col shadow-[#0d0d0e] shadow-2xl p-9 px-24">
                         <ul className="pb-6 border-b-2 flex justify-between items-center border-[#E5E7EB]">
                             <li className="max-w-[640px] font-bold text-[26px] line-clamp-1">{title}</li>
-                            <li><button onClick={setOpenModal} className="cursor-pointer hover:scale-105 transition-all duration-300"><Image src={close} alt="shopping image" width={24} height={24}></Image></button></li>
+                            <li><button onClick={() => setOpenModal(false)} className="cursor-pointer hover:scale-105 transition-all duration-300"><Image src={close} alt="shopping image" width={24} height={24}></Image></button></li>
                         </ul>
                         <Image src={src} alt={alt} width={700} height={700}></Image>
                         <div className="flex justify-between items-center pt-10 border-t-2 border-[#E5E7EB]">

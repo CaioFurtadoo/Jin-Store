@@ -1,10 +1,8 @@
-import Image from "next/image"
 import { BlogHome } from "@/components/Home/BlogHome";
 import { Carousel } from "@/components/Home/Carousel.tsx";
 import { CategoryGroup } from "@/components/Home/CategoryImg/CategoryGroup";
 import { TitleHome } from "@/components/Home/TitleHome";
 import { Product } from "@/components/Products";
-import bgPromo from "../../public/assets/Background/BgPromo.svg"
 import banner2 from "../../public/assets/Background/Banner2.svg"
 import banner1 from "../../public/assets/Background/Banner1.svg"
 import mini1 from "../../public/assets/Background/MiniBg1.svg"
