@@ -5,7 +5,7 @@ import Image from "next/image";
 import { GeneralInput } from "@/components/Pages/GeneralInput";
 import { GeneralCheckbox } from "@/components/Pages/GeneralCheckbox";
 
-export const account = () => {
+const Account = () => {
 
     return(
         <div>
@@ -55,4 +55,4 @@ export const account = () => {
     )
 }
 
-export default account;
+export default Account

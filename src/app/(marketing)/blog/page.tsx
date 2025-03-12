@@ -14,7 +14,7 @@ import instragram from "../../../../public/assets/Blog/Instagram.svg"
 import Image from "next/image"
 
 
-export const Blog = () => {
+const Blog = () => {
     return(
         <>
             <PagesText category="" before="Home" actual="Blog"/>

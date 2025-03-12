@@ -30,13 +30,13 @@ interface entity{
 
 export const Product: React.FC<productProps> = async ({ id, inStock, runOut, bigRunOut, border, timer, background }) => {
     
-    const response = await fetch("http://localhost:3000/api", {
+    const response = await fetch(`${process.env.BASE_URL}/api`, {
         cache: "force-cache",
     });
 
-    const products = await response.json();
+    const data = await response.json();
 
-    const produto = products.products.find((product: entity) => product.id === id);
+    const produto = data.products.find((product: entity) => product.id === id);
 
     if (!produto) {
         return <p>Produto não encontrado</p>;

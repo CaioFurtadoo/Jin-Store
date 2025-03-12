@@ -4,7 +4,7 @@ import Link from "next/link";
 import { GeneralCheckbox } from "@/components/Pages/GeneralCheckbox";
 
 
-export const Login = () => {
+const Login = () => {
     return (
         <div>
             <PagesText category="" before="Home" actual="Login"/>

@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link"
 import { PagesText } from "@/components/Pages";
 
-export const Cart = () => {
+const Cart = () => {
     return(
         <>
         <PagesText category="" before="Home" actual="Cart"/>

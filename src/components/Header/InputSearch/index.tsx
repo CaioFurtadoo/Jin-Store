@@ -1,8 +1,12 @@
+'use client'
+
 import Image from "next/image";
 import Form from 'next/form'
 import search from "../../../../public/assets/icons/Search.svg";
 
 export const InputSearch = () => {
+
+    
     return(
         <Form action="/filter" className="relative flex items-center w-[863px]">
             <input 

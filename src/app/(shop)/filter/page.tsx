@@ -15,18 +15,27 @@ interface Entity {
     category: string
 }
 
-export const filter = async ({ searchParams }: { searchParams: { query?: string, categories?: string } }) => {
-    const query = searchParams.query || ""
-    const categories = searchParams.categories?.split(",") || []
+interface SearchParams {
+    categories?: string,
+    query?: string
+}
 
+
+const filter = async ({ searchParams }: { searchParams: Promise<SearchParams> }) => {
     
-    const response = await fetch("http://localhost:3000/api", { cache: "no-store" })
-    const products = await response.json()
+    const {categories, query = ""} = await searchParams
 
+    console.log(categories)
+    console.log(query)
 
-    const filteredProducts = products.products.filter((product: Entity) => {
+    const categoriesFormatted = categories?.split(",") || []
+
+    const response = await fetch(`${process.env.BASE_URL}/api`, { cache: "no-store" })
+    const data = await response.json()
+
+    const filteredProducts = data.products.filter((product: Entity) => {
         const matchesQuery = product.title.toLowerCase().includes(query.toLowerCase())
-        const matchesCategory = categories.length === 0 || categories.includes(product.category)
+        const matchesCategory = categoriesFormatted.length === 0 || categoriesFormatted.includes(product.category)
         return matchesQuery && matchesCategory
     })
 

@@ -24,14 +24,14 @@ interface entity{
     category: string
 }
 
-export const ProductPage = async ({params,}: {
+const ProductPage = async ({params,}: {
     params: Promise<{ id: string }>
     }) => {
 
     const { id } = await params
 
-    const response = await fetch("http://localhost:3000/api", {
-        cache: "force-cache",
+    const response = await fetch(`${process.env.BASE_URL}/api`, {
+        cache: "force-cache"
     });
     const products = await response.json();
 

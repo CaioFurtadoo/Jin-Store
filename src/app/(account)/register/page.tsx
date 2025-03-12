@@ -3,7 +3,7 @@ import { PagesText } from "@/components/Pages";
 import Link from "next/link";
 
 
-export const Register = () => {
+const Register = () => {
     return (
         <div>
             <PagesText category="" before="Home" actual="Register"/>

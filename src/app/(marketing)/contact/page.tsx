@@ -9,7 +9,7 @@ import { GeneralTable } from "@/components/Pages/GeneralTable";
 
 
 
-export const Contact = () => {
+const Contact = () => {
     return(
         <div className="mx-[280px] flex flex-col gap-[45px] justify-center items-center mb-[75px]">
             <div className="py-[60px] flex flex-col items-center text-[#030712] border-b border-[#E5E7EB] w-[100%]">

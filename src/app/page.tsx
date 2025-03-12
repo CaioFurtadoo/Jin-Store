@@ -12,7 +12,7 @@ import { BannerHome } from "@/components/Home/BannerHome";
 import { BgPromo } from "@/components/Home/BgPromo";
 
 
-export const Home = () => {
+const Home = () => {
   return (
     <div>
       <Carousel/>
