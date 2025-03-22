@@ -13,6 +13,7 @@ import { Count } from "@/components/Products/Counter";
 import { Product } from "@/components/Products";
 import Link from "next/link";
 import { Expand } from "@/components/Products/Expand";
+import { fetchProducts } from "@/services/api";
 
 
 interface entity{
@@ -30,18 +31,16 @@ const ProductPage = async ({params,}: {
 
     const { id } = await params
 
-    const response = await fetch(`${process.env.BASE_URL}/api`, {
-        cache: "force-cache"
-    });
-    const products = await response.json();
 
-    const produto = products.products.find((product: entity) => product.id === id);
+    const data = await fetchProducts();
+
+    const produto = data.products.find((product: entity) => product.id === id);
 
     if (!produto) {
         return <p>Produto não encontrado</p>;
     }
 
-    const pfilter = products.products.filter((product: entity) => product.category === produto.category)
+    const pfilter = data.products.filter((product: entity) => product.category === produto.category)
 
     const randomizeArr = <T,>(arr: T[]): void => {
         for (let i = 0; i < arr.length; i++) {
@@ -115,7 +114,7 @@ const ProductPage = async ({params,}: {
                         <h1 className="font-bold text-[#030712] text-[18px]">Related products</h1>
                         <ul className=" mb-[60px] flex border-y border-l shadow-lg shadow-[#e8e9eb] border-[#E5E7EB] rounded-lg ">
                                 {pfilter.slice(0, 6).map((item: entity) => (
-                                <Product key={item.id} id={item.id} runOut={false} bigRunOut={false} inStock={true} timer={false} background="bg-white" border="border-r border-[#E5E7EB] rounded-lg"/>
+                                <Product data={data.products} key={item.id} id={item.id} runOut={false} bigRunOut={false} inStock={true} timer={false} background="bg-white" border="border-r border-[#E5E7EB] rounded-lg"/>
                             ))}
                         </ul>
                     </div>

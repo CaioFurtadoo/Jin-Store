@@ -5,6 +5,7 @@ import { Product } from "@/components/Products"
 import Image from "next/image"
 import banner3 from "../../../../public/assets/Background/Banner3.svg"
 import productView from "../../../../public/assets/icons/ProductViews.svg"
+import { fetchProducts } from "@/services/api";
 
 interface Entity {
     id: string
@@ -25,13 +26,9 @@ const filter = async ({ searchParams }: { searchParams: Promise<SearchParams> })
     
     const {categories, query = ""} = await searchParams
 
-    console.log(categories)
-    console.log(query)
-
     const categoriesFormatted = categories?.split(",") || []
 
-    const response = await fetch(`${process.env.BASE_URL}/api`, { cache: "no-store" })
-    const data = await response.json()
+    const data = await fetchProducts();
 
     const filteredProducts = data.products.filter((product: Entity) => {
         const matchesQuery = product.title.toLowerCase().includes(query.toLowerCase())
@@ -60,7 +57,7 @@ const filter = async ({ searchParams }: { searchParams: Promise<SearchParams> })
                     </ul>
                     <ul className="flex flex-wrap justify">
                         {filteredProducts.map((item: Entity) => (
-                            <Product key={item.id} id={item.id} runOut={false} bigRunOut={false} inStock={true} timer={false} background="bg-white" border="border border-[#E5E7EB] rounded-lg"/>
+                            <Product data={data.products} key={item.id} id={item.id} runOut={false} bigRunOut={false} inStock={true} timer={false} background="bg-white" border="border border-[#E5E7EB] rounded-lg"/>
                         ))}
                     </ul>
                 </div>

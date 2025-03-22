@@ -9,15 +9,6 @@ import { InStock } from "./InStock";
 import { RunOut } from "./RunOut";
 import Link from "next/link";
 
-interface productProps {
-    id: string;
-    inStock: boolean;
-    runOut: boolean;
-    bigRunOut: boolean;
-    timer: boolean;
-    border: string;
-    background: string;
-}
 
 interface entity{
     id: string
@@ -27,16 +18,22 @@ interface entity{
     image: string
     category: string
 }
+interface productProps {
+    id: string;
+    inStock: boolean;
+    runOut: boolean;
+    bigRunOut: boolean;
+    timer: boolean;
+    border: string;
+    background: string;
+    data: entity[];
+}
 
-export const Product: React.FC<productProps> = async ({ id, inStock, runOut, bigRunOut, border, timer, background }) => {
-    
-    const response = await fetch(`${process.env.BASE_URL}/api`, {
-        cache: "force-cache",
-    });
+export const Product: React.FC<productProps> = async ({ id, inStock, runOut, bigRunOut, border, timer, background, data}) => {
 
-    const data = await response.json();
 
-    const produto = data.products.find((product: entity) => product.id === id);
+ 
+    const produto = data.find((product: entity) => product.id === id);    
 
     if (!produto) {
         return <p>Produto não encontrado</p>;
