@@ -1,9 +1,9 @@
- # Campin-Login
+ # Jin-Store
 
-<h1 align="center">Campin Login</h1>
+<h1 align="center">Jin-Store</h1>
 
 <p align="center">
-Jin Store é uma plataforma de e-commerce para supermercados, desenvolvida com **Next.js**, **TypeScript** e **Tailwind CSS**. O objetivo do projeto é oferecer uma experiência de compra fluida, intuitiva e responsiva, permitindo que os usuários encontrem e adquiram produtos de forma prática.  <a href="https://github.com/CaioFurtadoo">Veja mais projetos aqui</a>
+Jin Store é uma plataforma de e-commerce para supermercados, desenvolvida com Next.js, TypeScript e Tailwind CSS. O objetivo do projeto é oferecer uma experiência de compra fluida, intuitiva e responsiva, permitindo que os usuários encontrem e adquiram produtos de forma prática. <br/> <a href="https://github.com/CaioFurtadoo">Veja mais projetos aqui</a>
 </p>
 
 <p align="center">
@@ -16,7 +16,6 @@ Jin Store é uma plataforma de e-commerce para supermercados, desenvolvida com *
 
 <p align="center">
 
-https://github.com/user-attachments/assets/1692d4fc-a7e8-4d12-b86c-13c8c3df849e
 
 </p>
 
@@ -37,21 +36,17 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ### 🔑 **Autenticação e Conta**
 - Cadastro e login via e-mail/senha.
-- Recuperação de senha integrada.
 - Gerenciamento de perfil do usuário.
 
 ### 📝 **Blog**
 - Exibição de artigos sobre alimentação, promoções e dicas de compra.
-- Sistema de categorias e tags para organização dos conteúdos.
 
 ### 📞 **Contato**
 - Formulário para dúvidas e suporte ao cliente.
-- Integração com envio de e-mails (opcional).
 
 ### 🛒 **Carrinho de Compras**
 - Em desenvolvimento
   
----
 
 ## 🏗️ **Estrutura do Projeto**
 A organização do código segue uma arquitetura modular para facilitar a escalabilidade.
