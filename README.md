@@ -16,6 +16,10 @@ Jin Store é uma plataforma de e-commerce para supermercados, desenvolvida com N
 
 <p align="center">
 
+![Captura de tela 2025-03-23 144034](https://github.com/user-attachments/assets/dcc70eca-3e2b-4b4e-bca3-b13c6cc59965)
+![Captura de tela 2025-03-23 144054](https://github.com/user-attachments/assets/c7e5c4cb-7583-4051-94c0-b518fa202f16)
+![Captura de tela 2025-03-23 144259](https://github.com/user-attachments/assets/090a8615-fd53-4ae5-94d7-2c993a46aacd)
+![Captura de tela 2025-03-23 144111](https://github.com/user-attachments/assets/79b9dee8-defc-4c3d-add8-a3fd6482e922)
 
 </p>
 
